@@ -1,0 +1,28 @@
+<form action="/" method="post">
+	<p>enter a string</p>
+	<input type="text" name="text" value="<?= $text; ?>"/> <input type="submit" value="Submit"/>
+</form>
+<hr/>
+<div>
+	<p>there are multiple ways of doing this, in special if you install some extra php libs</p>
+	<p>in any case, here i get the original string and split every 6 characters, because base64 encoded will be 8 characters</p>
+	<p>more then 8 characters, results go crazy</p>
+	<p>then i create an array, just to show you that an encoded 8 characters string works perfect</p>
+	<p>moving forwoard, get the binary string and concatenate it together so you can zip it or whatever,</p>
+	<p>but we need to remember to split it every 63 characters so we can convert it back and then concatenate that result to get the original string</p>
+</div>
+
+<hr/>
+<div>md5 encoded - <strong><?= md5($output); ?></strong></div>
+<div>base64 encoded - <strong><?= base64_encode($output); ?></strong></div>
+<div>base64 decoded - <strong><?= base64_decode(base64_encode($output)); ?></strong></div>
+<hr/>
+<div>my system - PHP_INT_MAX = <strong><?= $php_init_max; ?></strong></div>
+<div>entire binary (not sure what is needed for) - <strong><?= $binary_combined; ?></strong></div>
+<div>the entire binary can be zipped. that is trivial</strong></div>
+<div>original string recombined - <strong><?= $output; ?></strong></div>
+<hr/>
+<div>breakdown </div>
+<?php var_dump($ddd); ?>
+<?php var_dump($array); ?>
+<?php var_dump($vv); ?>
