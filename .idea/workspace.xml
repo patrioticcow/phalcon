@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e72db05b-bca3-44c4-a9bf-44cab907cec3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" afterPath="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.php" afterPath="$PROJECT_DIR$/public/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="phalcon.iws" />
@@ -26,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="IndexController.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/IndexController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.27594072" vertical-offset="0" max-vertical-offset="877">
+            <state vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="528">
               <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
               <folding />
             </state>
@@ -46,11 +46,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="770">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.075256556" vertical-offset="0" max-vertical-offset="877">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,8 +82,8 @@
         <option value="$PROJECT_DIR$/module/Application/view/templates/index/index.phtml" />
         <option value="$PROJECT_DIR$/public/git_hook.php" />
         <option value="$PROJECT_DIR$/public/.htaccess" />
-        <option value="$PROJECT_DIR$/public/index.php" />
         <option value="$PROJECT_DIR$/module/Application/src/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/public/index.php" />
       </list>
     </option>
   </component>
@@ -265,22 +265,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/git_hook.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4193548" vertical-offset="0" max-vertical-offset="176">
-          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="908">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/view/templates/index/index.phtml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1290324" vertical-offset="0" max-vertical-offset="198">
@@ -291,8 +275,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module/Application/src/Controller/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27594072" vertical-offset="0" max-vertical-offset="877">
+        <state vertical-scroll-proportion="-7.806452" vertical-offset="0" max-vertical-offset="528">
           <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/git_hook.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.4193548" vertical-offset="0" max-vertical-offset="176">
+          <caret line="2" column="59" selection-start-line="2" selection-start-column="59" selection-end-line="2" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.075256556" vertical-offset="0" max-vertical-offset="877">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>

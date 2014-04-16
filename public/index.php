@@ -1,5 +1,7 @@
 <?php
 
+echo shell_exec("cd /usr/share/nginx/html/phalcon/ && git pull");
+
 if (version_compare(PHP_VERSION, '5.4.0', '<=')) {
     exit(sprintf(
         'To run this application required PHP >= 5.4.0 Current version is %s.',
