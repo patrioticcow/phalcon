@@ -9,7 +9,7 @@ class IndexController extends Controller
 
 	public function indexAction()
 	{
-		var_dump('testinggggggggggasdasdg');
+		var_dump('s');
 		exit;
 
 	}
